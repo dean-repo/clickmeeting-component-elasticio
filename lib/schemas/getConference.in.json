@@ -1,0 +1,10 @@
+{
+    "type": "object",
+    "properties": {
+        "conferenceId": {
+            "type": "number",
+            "required": "true",
+            "title": "Conference Id"
+        }
+    }
+}

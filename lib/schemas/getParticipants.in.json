@@ -1,0 +1,15 @@
+{
+    "type":"object",
+    "properties": {
+        "roomId": {
+            "type": "number",
+            "required": true,
+            "title": "Conference ID"
+        },
+        "sessionId": {
+            "type": "number",
+            "required": false,
+            "title": "Session ID"
+        }
+    }
+}

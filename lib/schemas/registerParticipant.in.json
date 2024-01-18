@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "properties": {
+        "webinarRoomId": {
+            "type": "string",
+            "required": true,
+            "title": "Webinar Room ID"
+        },
+        "registrationPayload": {
+            "type": "object",
+            "required": false,
+            "title": "Attributes for participant registration"
+        },
+        "roomDetails": {
+            "type": "array",
+            "required": false,
+            "title": "Registration form fields"
+        }
+    }
+}

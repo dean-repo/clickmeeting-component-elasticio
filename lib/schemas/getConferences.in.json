@@ -1,0 +1,14 @@
+{
+    "type": "object",
+    "properties": {
+        "conferenceStatus": {
+            "type": "string",
+            "required": "true",
+            "enum": [
+                "active",
+                "inactive"
+            ],
+            "title": "Conference Status"
+        }
+    }
+}

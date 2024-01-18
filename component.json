@@ -1,0 +1,50 @@
+{
+    "title": "ClickMeeting",
+    "version": "1.0.0",
+    "description": "ClickMeeting component",
+    "docsUrl": "/",
+    "buildType":"docker",
+    "credentials": {
+      "fields": {
+        "apiKey": {
+          "label": "API key",
+          "required": true,
+          "viewClass": "PasswordFieldView",
+          "note": "ClickMeeting API-KEY."
+        }
+      }
+    },
+    "actions": {
+      "registerParticipant": {
+        "title": "Register Webinar Participant",
+        "main": "./lib/actions/registerParticipant.js",
+        "metadata": {
+          "in": "./lib/schemas/registerParticipant.in.json"
+        }
+      },
+      "getConferences": {
+        "title": "Get Conferences",
+        "main": "./lib/actions/getConferences.js",
+        "metadata": {
+          "in": "./lib/schemas/getConferences.in.json",
+          "out": "./lib/schemas/getConferences.out.json"
+        }
+      },
+      "getConference": {
+        "title": "Get Conference (singular)",
+        "main": "./lib/actions/getConference.js",
+        "metadata": {
+          "in": "./lib/schemas/getConference.in.json",
+          "out": "./lib/schemas/getConference.out.json"
+        }
+      },
+      "getParticipants": {
+        "title": "Get Attendees",
+        "main": "./lib/actions/getParticipants.js",
+        "metadata": {
+          "in": "./lib/schemas/getParticipants.in.json",
+          "out": "./lib/schemas/getParticipants.out.json"
+        }
+      }
+    }
+  }

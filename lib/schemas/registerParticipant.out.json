@@ -1,0 +1,21 @@
+{
+    "type":"object",
+    "properties": {
+        "status": {
+            "type": "string",
+            "title": "Status"
+        },
+        "exist": {
+            "type": "number",
+            "title": "Already registered"
+        },
+        "url": {
+            "type": "string",
+            "title": "Webinar URL"
+        },
+        "registrationId": {
+            "type": "string",
+            "title": "Registration ID"
+        }
+    }
+}

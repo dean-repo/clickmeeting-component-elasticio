@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "required": "true",
+    "properties": {
+        "statusCode": {
+            "type": "string",
+            "required": true,
+            "title": "Status Code"
+        },
+        "results": {
+            "type": "array",
+            "required": false,
+            "title": "Results"
+        }
+    }
+}
